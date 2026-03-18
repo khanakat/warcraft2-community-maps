@@ -68,7 +68,7 @@ By submitting maps to this repository, you agree that:
 
 ## 🔗 Links
 
-- [Warcraft II Community Platform](https://warcraft2-community.com)
+- [Warcraft II Community Platform](https://warcraft2.site)
 - [Documentation](https://github.com/Khanakat/Warcraft-II-Community/tree/main/docs)
 - [Issue Tracker](https://github.com/Khanakat/warcraft2-community-maps/issues)
 
