@@ -15,7 +15,7 @@ warcraft2-community-maps/
 │   │   └── ...
 │   └── <author2>/
 │       └── ...
-├── christmass/           # Christmas-themed maps (organized by player count)
+├── christmas/           # Christmas-themed maps (organized by player count)
 │   ├── 4_players/
 │   ├── 5_players/
 │   ├── 6_players/
@@ -74,7 +74,7 @@ warcraft2-community-maps/
 ### Special Collections
 
 - **`authors/`** - Individual author map collections organized by player count
-- **`christmass/`** - Christmas-themed maps for the holiday season
+- **`christmas/`** - Christmas-themed maps for the holiday season
 - **`rme/`** - RME (Resource Management Expert) maps - specialized economic scenarios
 
 ## 📜 License
