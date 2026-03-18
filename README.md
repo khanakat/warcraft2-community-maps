@@ -5,44 +5,56 @@ Community-submitted Warcraft II maps for the [Warcraft II Community](https://git
 ## 📁 Structure
 
 ```
-Community/
+warcraft2-community-maps/
 ├── authors/              # Individual author collections (organized by player count)
 │   ├── <author1>/
 │   │   ├── 2_players/
 │   │   ├── 4_players/
+│   │   ├── 6_players/
 │   │   ├── 8_players/
 │   │   └── ...
 │   └── <author2>/
 │       └── ...
-├── 2 Players/            # 2-player maps
-├── 3 Players/            # 3-player maps
-├── 4 Players/            # 4-player maps
-├── 5 Players/            # 5-player maps
-├── 6 Players/            # 6-player maps
-├── 7 Players/            # 7-player maps
-├── 8 Players/            # 8-player maps
-├── Customs/              # Custom/modded maps
-├── ChristmassCollection/  # Christmas-themed maps
-└── RME/                  # RME (Resource Management Expert) maps
+├── christmass/           # Christmas-themed maps (organized by player count)
+│   ├── 4_players/
+│   ├── 5_players/
+│   ├── 6_players/
+│   ├── 7_players/
+│   └── 8_players/
+└── rme/                  # RME (Resource Management Expert) maps (organized by player count)
+    ├── 4_players/
+    ├── 6_players/
+    └── 8_players/
 ```
 
 ## 📊 Current Statistics
 
 | Collection | Maps | Distribution |
 |------------|-------|--------------|
-| **Authors** | 840 | 8 players (470), 4 players (144), others (226) |
-| **ChristmassCollection** | 18 | 8 players (13), others (5) |
-| **RME** | 14 | 8 players (13), 4 players (1) |
-| **Total** | **872** | - |
+| **Authors** | 834 | 8 players, 4 players, 2 players, etc. |
+| **Christmass** | 18 | 4, 5, 6, 7, 8 players |
+| **RME** | 14 | 4, 6, 8 players |
+| **Total** | **866** | - |
 
 ## 🤝 How to Contribute
 
 ### Submitting a New Map
 
 1. Fork this repository
-2. Add your `.pud` file to the appropriate category folder:
-   - For 2-player maps: `Community/2 Players/YourMapName.pud`
-   - For author collections: `Community/Authors/YourUsername/8 Players/MapName.pud`
+2. Add your `.pud` file to the appropriate location:
+
+   **For author collections (recommended):**
+   ```
+   authors/<your_username>/<n_players>/YourMapName.pud
+   ```
+   Example: `authors/john_doe/4_players/Desert_Warfare.pud`
+
+   **Available player count folders:**
+   - `2_players/` - 2-player maps
+   - `4_players/` - 4-player maps
+   - `6_players/` - 6-player maps
+   - `8_players/` - 8-player maps
+
 3. Create a pull request to the `main` branch
 4. Your map will be automatically validated and added to the pending queue
 5. Wait for admin approval
@@ -58,6 +70,12 @@ Community/
 - **Format**: `.pud` (Warcraft II map format)
 - **Validation**: Maps are automatically validated on submission
 - **Duplicates**: Duplicate maps (by SHA-256 hash) are automatically rejected
+
+### Special Collections
+
+- **`authors/`** - Individual author map collections organized by player count
+- **`christmass/`** - Christmas-themed maps for the holiday season
+- **`rme/`** - RME (Resource Management Expert) maps - specialized economic scenarios
 
 ## 📜 License
 
